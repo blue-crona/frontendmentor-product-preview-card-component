@@ -67,6 +67,7 @@ p {
     cursor: pointer;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus {
     background-color: hsl(158, 36%, 23%);
 }
