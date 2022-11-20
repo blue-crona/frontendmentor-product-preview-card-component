@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Montserrat:wght@500;700&family=Outfit:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700;800&family=Montserrat:wght@500;700&family=Outfit:wght@400;900&display=swap');
+
+@import './common.blocks/product-card.css';
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --border-radius: .75em;
+
+    /* =============== COLORS =============== */
+    /* primary */
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    /* neutral */
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+
+    /* =============== FONT =============== */
+    --body-font: "Montserrat", sans-serif;
+    --header-font: "Fraunces", sans-serif;
+
+    /* font size */
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 14px;
+
+    /* font weight */
+    --font-medium: 500;
+    --font-bold: 700;
+}
+
+Html {
+    font-size: 14px;
+    font-family: var(--body-font);
+} 
+
+body {
+    background-color: var(--cream);
+    display: flex;
+    min-height: 100vh;
+}
+
+h1 {
+    font-weight: var(--font-bold);
+    font-family: var(--header-font);
+    color: var(--very-dark-blue)
+}
+
+p {
+    color: var(--dark-grayish-blue);
+}
+
+.btn {
+    background: var(--dark-cyan);
+    color: var(--white);
+    padding: 1em 2em;
+    font-family: inherit;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: hsl(158, 36%, 23%);
+}
+
+
+
+
