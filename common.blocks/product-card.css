@@ -21,8 +21,8 @@
 
 .product-card__category {
   text-transform: uppercase;
-  letter-spacing: 0.25em;
-  font-size: 0.9rem;
+  letter-spacing: 0.5em;
+  font-size: 0.85rem;
   color: var(--dark-grayish-blue);
 }
 
@@ -38,6 +38,8 @@
 
 .product-card__discount {
   color: var(--dark-cyan);
+  font-size: 33px;
+  font-weight: 700;
 }
 
 .product-card__price {
@@ -45,7 +47,7 @@
   font-weight: var(--font-medium);
   color: var(--dark-grayish-blue);
   font-size: 1rem;
-  padding-left: 1em;
+  padding-left: 1.5em;
   text-decoration: line-through;
 }
 
@@ -68,7 +70,7 @@
 
 @media (min-width: 1024px) {
   .product-card {
-    width: 615px;
+    width: 600px;
     display: flex;
     flex-direction: row;
   }

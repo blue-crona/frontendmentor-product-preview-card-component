@@ -66,8 +66,9 @@ p {
 .btn {
   background: var(--dark-cyan);
   color: var(--white);
-  padding: 1.5em 0;
+  padding: 1.4em 0;
   font-family: inherit;
+  font-weight: 700;
   border: none;
   border-radius: 0.5rem;
   cursor: pointer;
