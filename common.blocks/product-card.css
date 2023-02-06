@@ -22,7 +22,7 @@
 .product-card__category {
   text-transform: uppercase;
   letter-spacing: 0.5em;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   color: var(--dark-grayish-blue);
 }
 
@@ -38,6 +38,7 @@
 
 .product-card__discount {
   color: var(--dark-cyan);
+  font-size: 2.5rem;
 }
 
 .product-card__price {
@@ -51,7 +52,7 @@
 
 .product-card__title {
   padding-top: 0.5em;
-  font-size: 33px;
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 32px;
 }
