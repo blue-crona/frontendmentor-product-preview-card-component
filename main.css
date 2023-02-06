@@ -56,12 +56,17 @@ h1 {
 
 p {
   color: var(--dark-grayish-blue);
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
 }
 
 .btn {
   background: var(--dark-cyan);
   color: var(--white);
-  padding: 1em 2em;
+  padding: 1.5em 0;
   font-family: inherit;
   border: none;
   border-radius: 0.5rem;
