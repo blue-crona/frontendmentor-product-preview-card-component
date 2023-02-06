@@ -38,8 +38,6 @@
 
 .product-card__discount {
   color: var(--dark-cyan);
-  font-size: 33px;
-  font-weight: 700;
 }
 
 .product-card__price {
