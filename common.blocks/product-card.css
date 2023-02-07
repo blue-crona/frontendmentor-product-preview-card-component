@@ -24,7 +24,6 @@
   letter-spacing: 0.5em;
   font-size: 0.8rem;
   color: var(--dark-grayish-blue);
-  padding-bottom: 0.5em;
 }
 
 .product-card__description {
@@ -83,9 +82,9 @@
     margin-bottom: 2em;
   }
 
-  /* .product-card__title {
+  .product-card__title {
     padding-bottom: 0.5em;
-  } */
+  }
 
   .product-card__img,
   .product-card__content {
